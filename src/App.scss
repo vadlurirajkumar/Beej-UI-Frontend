@@ -1,0 +1,77 @@
+/* Font Link */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+/* Reset Styles */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+/* Colors */
+
+$dark-green: #002e21;
+
+$medium-green: #064a37;
+
+$light-green: #096e52;
+
+$white: #effcf8;
+
+
+
+// Reset Button
+
+button {
+
+  outline: none;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+
+
+// Reset Input Field
+
+input {
+
+  outline: none;
+
+  border: none;
+
+}
+
+
+
+// Reset List Item
+
+li {
+
+  list-style: none;
+
+}
+
+
+
+// Reset Link
+
+a {
+
+  text-decoration: none;
+
+}
+
