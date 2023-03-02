@@ -1,0 +1,35 @@
+.investordetail .button-cell {
+  padding-left: 30px;
+}
+.investordetail .button-cell .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.investordetail .accept-button {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(2, 49, 34, 0.7098039216);
+  color: white;
+  border-radius: 5px;
+}
+.investordetail .decline-button {
+  width: 100px;
+  height: 40px;
+  background-color: #e76f51;
+  color: white;
+  border-radius: 5px;
+}
+.investordetail .decline-button:hover {
+  background-color: #d45026;
+}
+.investordetail .accept-button:hover {
+  background-color: #154433;
+}
+
+@media (max-width: 1450px) {
+  .investordetail .accept-button, .investordetail .decline-button {
+    width: 80px;
+    height: 35px;
+  }
+}/*# sourceMappingURL=InvestorPendingApprovals.css.map */

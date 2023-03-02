@@ -1,0 +1,99 @@
+.video-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   gap: 14px;
+// padding: 20px 80px;
+background: #FCFCFC 0% 0% no-repeat padding-box;    
+border: 1px solid #00000000;
+border-radius: 5px;
+width: 100%;
+@media(max-width:1090px){
+  gap:25px;
+    
+  }
+
+.video{
+    // width: 26vw;
+    width: 90%;
+    h4{
+      font: normal normal 600 18px/27px Poppins;
+      letter-spacing: 0.02px;
+      color: #1A1A1A;
+      font-size: 18px;
+      @media(max-width:1857px){
+        font-size: 17px;
+       }
+       @media(max-width:1700px){
+           font-size: 16px;
+          }
+
+    @media(max-width:1600px){
+     font-size: 15px;
+    }
+    @media(max-width:1500px){
+        font-size: 14px;
+       }
+       @media(max-width:1400px){
+        font-size: 13px;
+       }
+       @media(max-width:650px){
+        font-size: 12px;
+       }
+       @media(max-width:590px){
+        font-size: 11px;
+       }
+       @media(max-width:563px){
+        font-size: 20px;
+       }
+       @media(max-width:450px){
+        font-size: 18px;
+       }
+       @media(max-width:350px){
+        font-size: 17px;
+       }
+    }
+
+    
+      p{
+        font: normal normal normal 16px/25px Poppins;
+letter-spacing: 0.19px;
+color: #1A1A1A;
+font-size: 16px;
+   @media(max-width:1800px){
+    font-size: 15px;
+   }
+   @media(max-width:1700px){
+    font-size: 14px;
+   }
+   @media(max-width:1600px){
+    font-size: 13px;
+   }
+   @media(max-width:1500px){
+    font-size: 14px;
+   }
+   @media(max-width:1300px){
+    font-size: 13px;
+   }
+   @media(max-width:590px){
+    font-size: 12px;
+   }
+   @media(max-width: 563px){
+    font-size: 16px;
+}
+@media(max-width: 450px){
+    font-size: 14px;
+}
+@media(max-width: 350px){
+    font-size: 13px;
+}
+    }
+    
+}
+
+
+.playerstyle{
+margin-top: 10px;
+}
+}

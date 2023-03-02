@@ -1,0 +1,119 @@
+.signuppage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20vh auto;
+  gap: 80px;
+
+  @media (max-width: 1450px) {
+    gap: 60px;
+    margin: 30vh auto 32vh;
+  }
+  @media (max-width: 900px) {
+    gap: 50px;
+    margin: 20vh auto 15vh;
+  }
+  @media (max-width: 770px) {
+    margin: 18vh auto 10vh;
+  }
+  @media (max-width: 500px) {
+    gap: 40px;
+    margin: 25vh auto 20vh;
+  }
+  @media (max-width: 400px) {
+    gap: 30px;
+    margin: 20vh auto 20vh;
+  }
+
+  .signuptitle {
+    color: #225649;
+    .subheading {
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: 1440px) {
+        font-size: 2.3rem;
+      }
+      @media (max-width: 1370px) {
+        font-size: 2.1rem;
+      }
+      @media (max-width: 1000px) {
+        font-size: 2rem;
+      }
+      @media (max-width: 1000px) {
+        font-size: 1.8rem;
+      }
+    }
+  }
+  .signup-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
+
+    .founder-button,
+    .investor-button {
+      .button1 {
+        width: 33rem;
+        height: 8.5rem;
+        font-size: 2.25rem;
+
+        @media (max-width: 1600px) {
+          width: 28rem;
+          height: 7.5rem;
+          font-size: 2rem;
+        }
+        @media (max-width: 1400px) {
+          width: 20rem;
+          height: 5rem;
+          font-size: 1.2rem;
+          img {
+            width: 36px;
+            height: 36px;
+          }
+        }
+        @media (max-width: 1000px) {
+          width: 18rem;
+          height: 5rem;
+        }
+        @media (max-width: 700px) {
+          width: 16rem;
+          height: 5rem;
+        }
+        @media (max-width: 600px) {
+          width: 14rem;
+          height: 5rem;
+        }
+        @media (max-width: 500px) {
+          width: 24rem;
+          height: 7rem;
+          flex-direction: column;
+          gap: 20px;
+        }
+        @media (max-width: 415px) {
+          width: 23rem;
+          height: 7.2rem;
+        }
+        @media (max-width: 375px) {
+          width: 21rem;
+          height: 7.2rem;
+        }
+      }
+    }
+  }
+  .preuser {
+    font-size: 18px;
+    color: #225649;
+  }
+  #signup-button {
+    width: 100%;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+}

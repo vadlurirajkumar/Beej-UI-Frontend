@@ -1,0 +1,112 @@
+.tq-founder{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   
+    .tq-content{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6%;
+
+        @media (max-width:854px) {
+            width: 100%;
+            gap: 3%;
+        }
+        @media (max-width:770px) {
+            flex-direction: column;
+            width: 100%;
+            gap: 6%;
+        }
+        @media (max-width:656px) {
+            padding: 20% 0% 40%;
+        }
+        @media (max-width:500px) {
+            padding: 30% 0% 50%;
+        }
+    .tq-img{
+        width:30% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+    .tq-text{
+        width:50% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        .text-content{
+            font-size: 48px;
+            color: #1A1A1A;
+            font-weight: bold;
+            text-align: center;
+            @media (max-width:1750px) {
+                font-size: 43px;
+            }
+            @media (max-width:1550px) {
+                font-size: 38px;
+            }
+            @media (max-width:1355px) {
+                font-size: 34px;
+            }
+            @media (max-width:1210px) {
+                font-size: 32px;
+            }
+            @media (max-width:1150px) {
+                font-size: 28px;
+            }
+            @media (max-width:1000px) {
+                font-size: 26px;
+            }
+            @media (max-width:900px) {
+                font-size: 24px;
+            }
+            @media (max-width:769px) {
+                width: 500px;
+                padding-top: 40px;
+            }
+            @media (max-width:500px) {
+                width: 400px;
+                font-size: 22px;
+                padding-top: 40px;
+            }
+            @media (max-width:500px) {
+                width: 360px;
+                font-size: 22px;
+                padding-top: 40px;
+            }
+            @media (max-width:415px) {
+                width: 340px;
+                font-size: 20px;
+                padding-top: 40px;
+            }
+        }
+
+        a{
+            font-size: 24px;
+            color: #225649D9;
+            text-decoration: underline;
+            @media (max-width:1550px) {
+                font-size: 20px;
+            }
+            @media (max-width:1210px) {
+                font-size: 18px;
+            }
+            @media (max-width:900px) {
+                font-size: 15px;
+            }
+        }
+    }
+}
+}
+
+// this is test

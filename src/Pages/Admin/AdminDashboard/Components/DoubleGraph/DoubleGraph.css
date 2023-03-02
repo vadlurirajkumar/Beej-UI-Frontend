@@ -1,0 +1,77 @@
+.barchart {
+  width: 50%;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(42, 157, 143, 0.0588235294);
+  padding: 20px;
+}
+.barchart .barchart-data {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.barchart .barchart-data h4 {
+  font-size: 22px;
+}
+.barchart .barchart-data .months {
+  display: flex;
+  gap: 40px;
+}
+.barchart .barchart-data .months p {
+  font-size: 16px;
+}
+.barchart .rotate-text {
+  font-size: 16px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg) translateY(-50%);
+}
+
+#root > div > div.dashboard-content > div.dashboard-data > div:nth-child(2) > div.barchart > div.recharts-wrapper {
+  width: 98% !important;
+  height: auto !important;
+}
+
+#root > div > div.dashboard-content > div.dashboard-data > div:nth-child(2) > div.barchart > div.recharts-wrapper > svg {
+  width: 100% !important;
+  height: auto !important;
+  margin-top: -100px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1700px) {
+  .barchart {
+    padding: 15px;
+  }
+  .barchart .barchart-data h4 {
+    font-size: 20px;
+  }
+  .barchart .barchart-data .months {
+    gap: 30px;
+  }
+  .barchart .barchart-data .months p {
+    font-size: 14px;
+  }
+  .barchart .rotate-text {
+    font-size: 16px;
+    transform: rotate(180deg) translate(10px, -50%);
+  }
+}
+@media (max-width: 1500px) {
+  .barchart {
+    padding: 10px;
+  }
+  .barchart .barchart-data h4 {
+    font-size: 18px;
+  }
+  .barchart .barchart-data .months {
+    gap: 25px;
+  }
+  .barchart .barchart-data .months p {
+    font-size: 12px;
+  }
+  .barchart .rotate-text {
+    font-size: 14px;
+    transform: rotate(180deg) translate(10px, -40%);
+  }
+}/*# sourceMappingURL=DoubleGraph.css.map */

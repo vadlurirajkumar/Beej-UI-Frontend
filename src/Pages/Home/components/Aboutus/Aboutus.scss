@@ -1,0 +1,465 @@
+.about-container {
+  width: 100%;
+  overflow-x: hidden;
+  .about-head {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 80px;
+    color: #225649;
+
+    @media (max-width: 1600px) {
+      padding-bottom:78px;
+      font-size: 43px;
+    }
+    @media (max-width: 1450px) {
+      padding-bottom:76px;
+      font-size: 40px;
+    }
+    @media (max-width: 1320px) {
+      padding-bottom:74px;
+      font-size: 35px;
+    }
+    @media (max-width:1215px){
+      padding-bottom:73px;
+      font-size: 34px;
+    }
+
+    @media (max-width:1110px){
+      padding-bottom:70px;
+      font-size: 32px;
+    }
+    @media (max-width:950px){
+      padding-bottom:65px;
+      font-size: 30px;
+    }
+   
+
+    @media (max-width:713px){
+      padding-bottom:60px;
+      font-size:28px;
+    }
+    @media (max-width:610px){
+      padding-bottom:45px;
+      font-size:28px;
+    }
+
+    @media (max-width:425px){
+      padding-bottom:38px;
+      font-size:25px;
+    }
+
+    @media (max-width:360px){
+      padding-bottom:25px;
+      font-size:22px;
+    }
+
+  }
+
+  .main-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+    }
+    .data-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 110px 150px 110px;
+      gap: 13px;
+
+      // @media (max-width:1260px){
+
+      //  padding: 70px 90px 140px 100px;
+      //  gap: 13px;
+  
+
+      // } 
+      // @media (max-width:1228px){
+
+      //   padding:65px 90px 130px 90px;
+      //   gap: 12px;
+   
+ 
+      //  } 
+
+      @media (max-width:1340px){
+
+        padding: 70px 100px 150px 100px;
+        gap: 13px;
+
+      }
+      @media (max-width:1314px){
+
+        padding: 65px 95px 140px 95px;
+        gap: 13px;
+
+      }
+      @media (max-width:1230px){
+
+        padding: 60px 90px 140px 90px;
+        gap: 12px;
+
+      }
+
+      @media (max-width:1215px){
+
+        padding: 60px 80px 140px 80px;
+        gap: 11px;
+
+      }
+
+      @media (max-width:1180px){
+        padding: 60px 70px 140px 70px;
+        gap: 11px;
+      }
+
+      @media (max-width:1120px){
+        padding: 60px 65px 140px 65px;
+        gap: 11px;
+      }
+     @media (max-width:1110px){
+        padding: 60px 60px 140px 58px;
+        gap: 11px;
+      }
+
+    @media (max-width:950px){
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 70px 100px 120px 110px;
+      gap: 16px;
+    }
+    @media (max-width:713px){
+      
+      padding: 60px 100px 100px 90px;
+      gap: 16px;
+    }
+    @media (max-width:610px){
+      
+      padding:55px 100px 95px 85px;
+      gap: 16px;
+    }
+    @media (max-width:540px){
+      
+      padding:45px 100px 85px 75px;
+      gap: 16px;
+    }
+
+    @media (max-width:432px){
+      
+      padding:40px 92px 80px 92px;
+      gap: 16px;
+    }
+
+    @media (max-width:426px){
+      
+      padding:30px 85px 75px 85px;  
+      gap: 14px;
+    }
+
+    @media (max-width:360px){
+      
+      padding:20px 75px 65px 75px;  
+      gap: 8px;
+    }
+
+
+    }
+
+    #data {
+      // font: normal normal normal 15px/24px Poppins;
+      font-size: 18px;
+      letter-spacing: 0px;
+      text-align: center;
+      width: 75%;
+
+      @media (max-width:1314px){
+        font-size: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 73%;
+      }
+
+      @media (max-width:1215px){
+        font-size: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 70%;
+      } 
+      @media (max-width:1180px){
+        font-size: 15px;
+        letter-spacing: 0px;
+        text-align: center;
+        width:68%;
+      } 
+      @media (max-width:950px){
+        font-size: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+        width:40%;
+      } 
+      @media (max-width:713px){
+        font-size: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+        width:50%;
+      } 
+
+      @media (max-width:540px){
+        font-size: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+        width:60%;
+      } 
+
+      @media (max-width:432px){
+        font-size: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+        width:140%;
+      } 
+
+      @media (max-width:360px){
+        font-size: 12 px;
+        letter-spacing: 0px;
+        text-align: center;
+        width:145%;
+      } 
+
+
+
+
+    //   @media (max-width:1260px){
+    //     text-align:center;
+    //     font-size: 17px;
+    //     width: 73%;
+    //   }
+    //  @media (max-width: 1161px){
+    //     text-align:center;
+    //     font-size: 16px;
+    //     width: 72%;
+    //   }
+
+    }
+
+
+
+
+    .about-data {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+
+      #leaf{
+        width: 40.5px;
+        
+        @media (max-width:360px){
+          width:30.5px;
+        
+        }
+
+      }
+      
+       
+
+      @media (max-width:1260px){
+        gap: 18px;
+      }
+      @media (max-width:950px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top:20px;
+        gap: 25px;
+       
+      }
+      @media (max-width:610px){
+        padding-top:10px;
+        gap: 20px;
+      }
+      @media (max-width:432px){
+      
+        gap:30px;
+      }
+      @media (max-width:360px){
+      
+        gap:8px;
+      }
+   
+
+
+      
+
+    }
+
+    h5 {
+      font-size: 28px;
+      color: #225649;
+
+
+    
+      @media (max-width:1570px) {
+        font-size: 25px;
+      }
+
+      @media (max-width:1505px) {
+        font-size: 23px;
+      }
+
+      @media (max-width:1314px){
+        font-size: 21px;
+      }
+
+      @media (max-width:1215px){
+        font-size: 20px;
+      }
+
+      @media (max-width:1180px){
+        font-size:18px;
+      }
+
+      @media (max-width:1110px){
+        font-size:17px;
+      }
+
+      @media (max-width:432px){
+        font-size:17px;
+      }
+
+      @media (max-width:425px){
+        font-size:15px;
+      }
+      @media (max-width:360px){
+        font-size:13px;
+      }
+      
+
+   
+
+     
+
+    }
+    h3 {
+      font-size: 30px;
+      color: #225649;
+
+      @media (max-width: 1600px) {
+        font-size: 28px;
+      }
+
+      @media (max-width:1314px){
+        font-size: 26px;
+      }
+
+      @media (max-width:1215px){
+        font-size: 24px;
+      }
+      @media (max-width:1180px){
+        font-size: 22px;
+      }
+     
+      @media (max-width:1110px){
+        font-size: 21px;
+      }
+
+      @media (max-width:769px){
+        font-size:19px;
+      }
+
+      @media (max-width:713px){
+        font-size:17px;
+      }
+
+      @media (max-width:610px){
+        font-size:18px;
+      }
+      @media (max-width:532px){
+        font-size:17px;
+      }
+      @media (max-width:425px){
+        font-size:15px;
+      }
+
+      @media (max-width:360px){
+        font-size:16px;
+      }
+
+     
+
+
+    }
+
+    p {
+      // font: normal normal normal 17px/24px Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      width: 80%;
+      color: #225649;
+
+      @media (max-width: 1600px) {
+        width: 70%;
+       }
+
+       @media (max-width:1314px){
+        font-size: 17px;
+        width:65%;
+
+       }
+
+       @media (max-width:1215px){
+
+        font-size: 15px;
+       }
+       @media (max-width:950px){
+        width:62%;
+       
+       }
+
+       @media (max-width:540px){
+
+        width:65%;
+       
+       }
+
+       @media (max-width:432px){
+        padding: 15px 36px 40px 36px;
+       font-size: 14px;
+        width:105%;
+       
+       }
+
+       @media (max-width:425px){
+
+        padding: 13px 30px 35px 30px;
+       font-size: 13px;
+        width:90%;
+       
+       }
+       @media (max-width:360px){
+
+        padding: 13px 30px 35px 30px;
+       font-size: 13px;
+        width:100%;
+       
+       }
+
+
+
+    }
+  }
+}

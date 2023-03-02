@@ -1,0 +1,74 @@
+@import '../../../../../App.scss';
+
+.investor-kyc{
+    background-color: #FCFCFC;
+    width: 100%;
+    height: 100vh;
+}
+.dashboard-content{
+    background-color: #FCFCFC;
+}
+.kyc-Info {
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFCFC;
+    gap: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+
+    .form-container {
+        width: 70%;
+        padding: 20px 20px;
+    }
+
+    .label-index {
+        display: flex;
+        flex-direction: column;
+        color: #858585;
+        
+        
+        h4{
+            font-size: 22px;
+        }
+    }
+
+    
+    input {
+        border: 1px solid #F0F0F0;
+        padding: 7px;
+    }
+
+    .investor-kyc-button{
+        margin-left: 20px;
+        width: 6%;
+        height: 40px;
+        background-color: $dark-green;
+        color: white;
+        
+        // margin-top: 20px;
+
+    }
+   
+}
+
+
+
+//------------------- MEDIA QUARY ---------
+@media screen and (max-width: 1500px) {
+    .kyc-Info{
+        .form-container{
+            min-width: 70%;
+        }
+
+        label{
+            font-size: 14px;
+        }
+
+        input{
+            font-size: 12px;
+        }
+    }
+}

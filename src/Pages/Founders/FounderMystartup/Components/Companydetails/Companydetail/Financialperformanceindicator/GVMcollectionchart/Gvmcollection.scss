@@ -1,0 +1,17 @@
+.xaxisunits p{
+    position: absolute;
+    left:15rem;
+ }
+ .yaxisunits p{
+    position: absolute;
+    bottom: 10rem;
+    left: -3.8rem;
+    transform: rotate(-90deg);
+    @media (max-width: 1800px){
+      bottom: 5rem;
+    left: -3.8rem;
+    }
+ }
+ .chart-main{
+    position: relative;
+ }

@@ -1,0 +1,229 @@
+.InvestedCards {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    color: #FFFFFF;
+    // padding: 20px 25px;
+    background-color: #F5F5F5;
+    @media(max-width:1450px){
+        gap: 15px;
+    }
+
+
+    .invested-card {
+        background-color: #FFFFFF;
+        border: 1px solid #F1F5F7;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        border-radius: 10px;
+        gap: 30px;
+        padding: 25px;
+      
+
+        .top {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: #464646;
+
+            h3 {
+
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+
+        .bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h2 {
+                color:#464646;;
+                font-size: 32px;
+            }
+            img{
+                // height: 60px;
+                width: 60px;
+            }
+        }
+    }
+}
+
+// -------------- { MEDIA QUARY } --------------
+@media screen and (max-width: 1700px) {
+    .InvestedCards{
+        .invested-card{
+            padding: 20px;
+            gap: 25px;
+            .top{
+                gap: 5px;
+                h3 {
+
+                    font-size: 22px;
+                }
+    
+                p {
+                    font-size: 15px;
+                }
+            }
+            .bottom {
+                h2 {
+                    font-size: 28px;
+                }
+                img{
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .InvestedCards{
+        .invested-card{
+            padding: 15px;
+            gap: 20px;
+            .top{
+                gap: 0px;
+                h3 {
+
+                    font-size: 18px;
+                }
+    
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .bottom {
+                h2 {
+                    font-size: 25px;
+                }
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .InvestedCards{
+        .invested-card{
+            .top{
+                h3 {
+
+                    font-size: 16px;
+                }
+    
+                p {
+                    font-size: 13px;
+                }
+            }
+            .bottom{
+                h2 {
+                    font-size: 22px;
+                }
+               
+            }
+        }
+    }
+}
+@media(max-width:1000px){
+    .InvestedCards{
+        gap: 10px;
+        .invested-card{
+            padding: 10px;
+            gap: 10px;
+            .top{
+                gap: 0px;
+                h3 {
+
+                    font-size: 16px;
+                }
+    
+                p {
+                    font-size: 13px;
+                }
+            }
+
+            .bottom {
+                h2 {
+                    font-size: 20px;
+                }
+                img{
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:850px){
+    .InvestedCards{
+        gap: 15px;
+        flex-wrap: wrap;
+        .invested-card{
+            width: 48.5%;
+            padding: 15px;
+            gap: 20px;
+            .top{
+                gap: 0px;
+                h3 {
+
+                    font-size: 18px;
+                }
+    
+                p {
+                    font-size: 13px;
+                }
+            }
+
+            .bottom {
+                h2 {
+                    font-size: 22px;
+                }
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    .InvestedCards{
+        gap: 10px;
+        flex-wrap: wrap;
+        .invested-card{
+            width: 100%;
+            padding: 15px;
+            gap: 20px;
+            .top{
+                gap: 0px;
+                h3 {
+
+                    font-size: 16px;
+                }
+    
+                p {
+                    font-size: 12px;
+                }
+            }
+
+            .bottom {
+                h2 {
+                    font-size: 20px;
+                }
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+

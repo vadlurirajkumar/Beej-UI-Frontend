@@ -1,0 +1,204 @@
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #fcfcfc;
+  padding: 3.5rem 6.25rem;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+@media (max-width: 1700px) {
+  .heroSection {
+    padding: 1.5rem 3.25rem;
+    gap: 40px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1450px) {
+  .heroSection {
+    padding: 1rem 2.5rem;
+    gap: 30px;
+  }
+}
+.heroSection h2 {
+  font-size: 24px;
+}
+@media (max-width: 1700px) {
+  .heroSection h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1450px) {
+  .heroSection h2 {
+    font-size: 20px;
+  }
+}
+.heroSection h3 {
+  color: #064a37;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+@media (max-width: 1700px) {
+  .heroSection h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1450px) {
+  .heroSection h3 {
+    font-size: 16px;
+  }
+}
+.heroSection .hero-section-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+@media (max-width: 1650px) {
+  .heroSection .hero-section-main {
+    gap: 50px;
+  }
+}
+.heroSection .hero-section-main .hero-section-top-part {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.heroSection .hero-section-main .hero-section-top-part .title-description {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.heroSection .hero-section-main .hero-section-top-part .title-description h1 {
+  width: 100%;
+  color: #064a37;
+  font-size: 20px;
+  border: 1px solid #707070;
+  padding: 15px;
+}
+@media (max-width: 1650px) {
+  .heroSection .hero-section-main .hero-section-top-part .title-description h1 {
+    font-size: 18px;
+  }
+}
+.heroSection .hero-section-main .hero-section-top-part .title-description .hero-para-div p {
+  border: 1px solid #707070;
+  padding: 15px;
+  color: #003122;
+  opacity: 0.7;
+  font-size: 17px;
+  width: 100%;
+}
+@media (max-width: 1650px) {
+  .heroSection .hero-section-main .hero-section-top-part .title-description .hero-para-div p {
+    font-size: 15px;
+  }
+}
+.heroSection .hero-section-main .hero-part-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+@media (max-width: 1650px) {
+  .heroSection .hero-section-main .hero-part-img {
+    width: 40%;
+  }
+}
+.heroSection .hero-section-main .hero-part-img img {
+  width: 100%;
+}
+.heroSection .hero-section-main .hero-section-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroSection .hero-section-main .hero-section-bottomLeft {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+@media (max-width: 1700px) {
+  .heroSection .hero-section-main .hero-section-bottomLeft {
+    gap: 50px;
+  }
+}
+@media (max-width: 1700px) {
+  .heroSection .hero-section-main .hero-section-bottomLeft {
+    gap: 40px;
+  }
+}
+.heroSection .hero-section-main .hero-section-bottom-part {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroSection .hero-section-main .hero-section-bottom-part .hero-section-left h4 {
+  font-size: 20px;
+  letter-spacing: 0.24px;
+  color: #1a1a1a;
+}
+@media (max-width: 1700px) {
+  .heroSection .hero-section-main .hero-section-bottom-part .hero-section-left h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1450px) {
+  .heroSection .hero-section-main .hero-section-bottom-part .hero-section-left h4 {
+    font-size: 16px;
+  }
+}
+.heroSection .hero-section-main .hero-section-bottom-part .hero-section-right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.heroSection .hero-section-main .hero-section-bottom-part .hero-section-right input {
+  border: 1px solid #707070;
+  height: 50px;
+  width: 180px;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #003122;
+  font-weight: 600;
+}
+@media (max-width: 1700px) {
+  .heroSection .hero-section-main .hero-section-bottom-part .hero-section-right input {
+    width: 150px;
+    font-size: 18px;
+    height: 40px;
+  }
+}
+@media (max-width: 1450px) {
+  .heroSection .hero-section-main .hero-section-bottom-part .hero-section-right input {
+    width: 130px;
+    font-size: 16px;
+    height: 40px;
+  }
+}
+.heroSection .hero-section-main button {
+  align-self: center;
+  width: 150px;
+  height: 50px;
+  background-color: #0a3e2f;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+@media (max-width: 1700px) {
+  .heroSection .hero-section-main button {
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1450px) {
+  .heroSection .hero-section-main button {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=HeroSection.css.map */

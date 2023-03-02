@@ -1,0 +1,123 @@
+
+// .investor-main-section{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 20px 40px;
+// }
+
+
+
+.investor-table-style {
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 20px;
+    border-radius: 5px;
+    // width: 40%;
+height: 100%;
+.inv{
+    @media(max-width: 600px){
+        font: normal normal medium 16px/36px Poppins;
+letter-spacing: 0px;
+color: #225649;
+font-size: 16px;
+
+    }
+    @media(max-width: 500px){
+        font: normal normal medium 15px/36px Poppins;
+letter-spacing: 0px;
+color: #225649;
+font-size: 15px;
+
+    }
+    @media(max-width: 400px){
+        font: normal normal medium 15px/36px Poppins;
+letter-spacing: 0px;
+color: #225649;
+font-size: 14px;
+
+    }
+
+}
+.sec-invested{
+    @media(max-width: 600px){
+        text-align: center;
+        font: normal normal medium 16px/36px Poppins;
+letter-spacing: 0px;
+color: #225649;
+font-size: 16px;
+    }
+    @media(max-width: 500px){
+        font: normal normal medium 15px/36px Poppins;
+letter-spacing: 0px;
+color: #225649;
+font-size: 14px;
+
+    }
+    @media(max-width: 400px){
+        font: normal normal medium 15px/36px Poppins;
+letter-spacing: 0px;
+color: #225649;
+font-size: 13px;
+
+    }
+  
+}
+.sec-invested-name{
+    @media(max-width: 600px){
+        font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0.14px;
+color: #171717;
+text-align: center;
+font-size: 14px;
+    }
+    @media(max-width: 500px){
+        font: normal normal normal 13px/21px Poppins;
+letter-spacing: 0.14px;
+color: #171717;
+text-align: center;
+font-size: 13px;
+    }
+    @media(max-width: 400px){
+        font: normal normal normal 13px/21px Poppins;
+letter-spacing: 0.14px;
+color: #171717;
+text-align: center;
+font-size: 12px;
+    }
+}
+.table-style{
+    // width: 500px;
+    border-bottom: 0px;
+}
+.MuiTableCell-root{border-bottom: none}
+
+.celldata-spacing{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    .inv-name{
+        @media(max-width:600px){
+                    font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0.14px;
+color: #171717;
+font-size: 14px;
+        }
+        @media(max-width:500px){
+            font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0.14px;
+color: #171717;
+font-size: 13px;
+}
+@media(max-width:400px){
+    font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0.14px;
+color: #171717;
+font-size: 12px;
+}
+    }
+}
+}

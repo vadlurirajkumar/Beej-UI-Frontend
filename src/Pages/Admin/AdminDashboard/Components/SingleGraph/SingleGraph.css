@@ -1,0 +1,75 @@
+.single-graph {
+  width: 50%;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(42, 157, 143, 0.0588235294);
+  padding: 20px;
+}
+.single-graph .investment-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.single-graph .investment-details h4 {
+  font-size: 22px;
+  color: #1a1a1a;
+}
+.single-graph .investment-details ul {
+  display: flex;
+  gap: 40px;
+}
+.single-graph .investment-details ul li {
+  font-size: 16px;
+  color: #707070;
+}
+
+#root > div > div.dashboard-content > div.dashboard-data > div:nth-child(3) > div.single-graph > div.recharts-wrapper.graph-data {
+  width: 100% !important;
+  height: auto !important;
+}
+
+#root > div > div.dashboard-content > div.dashboard-data > div:nth-child(3) > div.single-graph > div.recharts-wrapper.graph-data > svg {
+  width: 100% !important;
+  height: auto !important;
+}
+
+#root > div > div.dashboard-content > div.dashboard-data > div:nth-child(3) > div.single-graph > div.recharts-wrapper.graph-data > div {
+  display: none;
+}
+
+@media (max-width: 1700px) {
+  .single-graph {
+    padding: 15px;
+  }
+  .single-graph .investment-details {
+    margin-bottom: 50px;
+  }
+  .single-graph .investment-details h4 {
+    font-size: 20px;
+  }
+  .single-graph .investment-details ul {
+    gap: 30px;
+  }
+  .single-graph .investment-details ul li {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1500px) {
+  .single-graph {
+    padding: 10px;
+  }
+  .single-graph .investment-details {
+    margin-bottom: 50px;
+  }
+  .single-graph .investment-details h4 {
+    font-size: 18px;
+  }
+  .single-graph .investment-details ul {
+    gap: 25px;
+  }
+  .single-graph .investment-details ul li {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=SingleGraph.css.map */

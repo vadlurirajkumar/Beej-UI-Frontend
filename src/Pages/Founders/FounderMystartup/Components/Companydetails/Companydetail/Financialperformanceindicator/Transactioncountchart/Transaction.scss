@@ -1,0 +1,39 @@
+// .xaxisunits{
+//     position:relative;
+//     left: 635px;
+//     top: 375px;
+// }
+// .yaxisunits{
+//   position: relative;
+//     top: 40px;
+//     left: 20px;
+//     writing-mode: vertical-lr;
+//     transform:rotate(180deg);
+// }
+
+// .chart-main-sections{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: flex-start;
+//     background-color: #EDEDED66;
+//     height: 600px;
+
+   
+// }
+// .Revnuemainclass{
+//     height: 50%;
+//     width: 100%;
+// }
+.xaxisunits p{
+    position: absolute;
+    left:15rem;
+ }
+ .yaxisunits p{
+    position: absolute;
+    bottom: 10rem;
+    left: -3.8rem;
+    transform: rotate(-90deg);
+ }
+ .chart-main{
+    position: relative;
+ }

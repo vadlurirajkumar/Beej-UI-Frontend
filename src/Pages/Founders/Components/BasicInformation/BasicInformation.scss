@@ -1,0 +1,473 @@
+.basicinfo {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+  padding-top: 90px;
+  flex-direction: column;
+  @media (max-width: 1450px) {
+    padding-top: 70px;
+    width: 95%;
+  }
+  @media(max-width:850px){
+    padding-top: 60px;
+  }
+  @media(max-width:500px){
+   padding-top: 50px;
+    gap: 50px;
+    width: 95%;
+  }
+  .title {
+    padding-bottom: 40px;
+    @media(max-width:500px){
+      padding-bottom: 30px;
+    }
+    h3 {
+      font-size: 32px;
+      @media (max-width: 1700px) {
+        font-size: 30px;
+      }
+      @media (max-width: 1450px) {
+        font-size: 28px;
+      }
+      @media (max-width: 950px) {
+        font-size: 26px;
+        text-align: center;
+      }
+      @media (max-width: 500px) {
+        font-size: 25px;
+        color: #064a37;
+        text-align: start;
+      }
+    }
+  }
+  .industry {
+  
+    .radio {
+   
+      .choose {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        @media (max-width: 950px) {
+          // justify-content: center;
+          // align-items: flex-start;
+        }
+        @media (max-width: 500px) {
+          
+          justify-content: flex-start;
+        }
+        input{
+          cursor: pointer;
+          width: 15px;
+          height: 15px;
+        }
+
+        label {
+          font-size: 24px;
+          color: #707070;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1450px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 15px;
+          }
+        }
+      }
+      .other {
+        padding-top: 30px;
+        @media (max-width: 500px) {
+          padding-top: 20px;
+        }
+        input {
+          width: 90%;
+          border-bottom: 2px solid lightgrey;
+          outline: none;
+          font-size: 24px;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1450px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  .basic {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+   
+    @media (max-width: 900px) {
+      align-items: center;
+      gap: 50px;
+    }
+    @media (max-width: 500px) {
+      align-items: flex-start;
+    }
+    
+    .top {
+      display: flex;
+      @media (max-width: 900px) {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 60px;
+      }
+      @media (max-width: 550px) {
+        gap: 40px;
+      }
+      .left {
+        flex: 2;
+        .title {
+          font-size: 2rem;
+          color: #1a1a1a;
+          padding-bottom: 60px;
+        }
+        input,select,textarea {
+          width: 100%;
+          border: none;
+          border-bottom: 2px solid lightgrey;
+          outline: none;
+          color: #707070;
+          font-size: 24px;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1450px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 15px;
+          }
+        }
+        label {
+          color: #707070;
+          font-size: 24px;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1516px) {
+            font-size: 21px;
+          }
+          @media (max-width: 1470px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1400px) {
+            font-size: 18px;
+          }
+        }
+      }
+      .right {
+        transform: translateY(-30px);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        @media (max-width: 500px) {
+          flex-direction: row;
+          gap: 20px;
+        }
+        @media (max-width: 400px) {
+          gap: 10px;
+        }
+
+      .logo-image{
+        
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        cursor: pointer;
+
+      
+      }
+        
+        .text {
+          padding-top: 21px;
+          color: #225649;
+          text-align: center;
+          @media (max-width: 500px) {
+            text-align: start;
+          }
+          h6 {
+            font-size: 20px;
+            @media (max-width: 500px) {
+              font-size: 16px;
+            }
+            @media (max-width: 400px) {
+              font-size: 12px;
+            }
+          }
+          span {
+            font-size: 18px;
+            @media (max-width: 500px) {
+              font-size: 14px;
+            }
+            @media (max-width: 400px) {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+
+      .hover:hover {
+        background-color: #064a37;
+        border: 2px solid #666666;
+        img {
+          display: none;
+        }
+        .line1 {
+          label {
+            cursor: pointer;
+            display: block;
+            color: #ffffff;
+            font-size: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translateY(10%);
+
+            // font-size: 50px;
+            // @media (max-width: 1700px) {
+            //   font-size: 22px;
+            // }
+            // @media (max-width: 1516px) {
+            //   font-size: 21px;
+            // }
+            // @media (max-width: 1470px) {
+            //   font-size: 20px;
+            // }
+            @media (max-width: 500px) {
+              font-size: 20px;
+              transform: translateY(25%);
+            }
+          }
+        }
+      }
+    }
+  }
+  .funding {
+    // padding-top: 75px;
+    .funding_title {
+      font-size: 32px;
+      color: #1a1a1a;
+      padding-bottom: 35px;
+      @media (max-width: 950px) {
+        text-align: center;
+      }
+      @media (max-width: 500px) {
+        text-align: start;
+      }
+      h3 {
+        @media (max-width: 950px) {
+          font-size: 25px;
+        }
+      }
+    }
+    .options {
+      .funding-choose {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        @media (max-width: 500px) {
+          justify-content: flex-start;
+        }
+        input {
+          cursor: pointer;
+          width: 15px;
+          height: 15px;
+        }
+        label {
+          font-size: 24px;
+          color: #707070;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1450px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .areyou {
+    // padding-top: 75px;
+    .areyou-title {
+      font-size: 32px;
+      color: #1a1a1a;
+      padding-bottom: 35px;
+      h3 {
+        @media (max-width: 950px) {
+          font-size: 25px;
+        }
+      }
+      @media (max-width: 950px) {
+        text-align: center;
+      }
+      @media (max-width: 500px) {
+        text-align: start;
+      }
+    }
+    .areyou-options {
+      .areyou-choose {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        @media (max-width: 950px) {
+          // justify-content: center;
+        }
+        @media (max-width: 500px) {
+          justify-content: flex-start;
+        }
+        input {
+         cursor: pointer;
+         width: 15px;
+         height: 15px;
+        }
+        label {
+          font-size: 24px;
+          color: #707070;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1450px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .accountinfo {
+    width: 100%;
+    // padding-top: 75px;
+    // padding-bottom: 60px;
+    @media(max-width:1050px){
+      // padding-bottom: 50px;
+    }
+    .account-title {
+      font-size: 32px;
+      color: #1a1a1a;
+      padding-bottom: 50px;
+      h3 {
+        @media (max-width: 950px) {
+          font-size: 25px;
+        }
+        // @media (max-width:950px) {
+        //   font-size:20px;
+        // }
+      }
+      @media (max-width: 950px) {
+        text-align: center;
+      }
+      @media (max-width: 500px) {
+        text-align: start;
+      }
+    }
+    .account-options {
+    
+      input,select {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid lightgrey;
+        outline: none;
+        color: #707070;
+        font-size: 24px;
+        @media (max-width: 1700px) {
+          font-size: 22px;
+        }
+        @media (max-width: 1450px) {
+          font-size: 20px;
+        }
+        @media (max-width: 1300px) {
+          font-size: 20px;
+        }
+        @media (max-width: 1050px) {
+          font-size: 18px;
+        }
+        @media (max-width: 500px) {
+          font-size: 15px;
+        }
+      }
+     
+    }
+  }
+  .next {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+    @media(max-width:1450px){
+      padding-bottom: 120px;
+    }
+    @media(max-width:1050px){
+      padding-bottom: 100px;
+    }
+    @media(max-width:500px){
+      padding-bottom: 80px;
+    }
+    button {
+      width: 220px;
+      height: 70px;
+      border-radius: 4px;
+      background-color: #064a37;
+      font-size: 24px;
+      color: #fafafa;
+      @media(max-width:1700px){
+        height: 65px;
+        font-size: 22px;
+      }
+      @media(max-width:1450px){
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+      }
+      @media(max-width:500px){
+        width: 100%;
+        height: 50px;
+        
+      }
+    }
+  }
+}
+
+
+// .brandname {
+//   @media (max-width: 950px) {
+//     padding-left: 0px !important;
+//     padding-top: 40px !important;
+//     max-width: 100% !important;
+//   }
+// }

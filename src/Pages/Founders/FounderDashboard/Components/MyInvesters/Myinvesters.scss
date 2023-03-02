@@ -1,0 +1,16 @@
+
+.Myinvester{
+Table{
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+// box-shadow: 0px 10px 20px #00000014;
+
+// border-radius: 10px;
+.ftable{
+    min-width: 400px;
+    @media(max-width: 1081px){
+        min-width: 370px;
+    }
+}
+
+}
+}

@@ -1,0 +1,58 @@
+@import '../../../../App.scss';
+
+
+.dialog-pop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .popup-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+        .popup-data-card{
+            display: flex;
+            gap: 3rem;
+            width: 100%;
+    
+            .popup-card-label{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    
+        input{
+            width: 100%;
+            border-bottom: 0.30px solid lightgray;
+    
+            &::placeholder{
+                font-size: 12px;
+            }
+        }
+        
+        
+    }
+
+    .customized-dialog-title{
+        border-bottom: none;
+    }
+}
+
+
+    
+    .pop-btn{
+        background-color: $light-green;
+        color: $white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+    
+        &:hover{
+            background-color: $dark-green;
+        }
+    }
+
+

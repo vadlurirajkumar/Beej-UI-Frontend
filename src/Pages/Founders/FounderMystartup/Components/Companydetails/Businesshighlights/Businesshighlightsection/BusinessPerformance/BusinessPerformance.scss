@@ -1,0 +1,17 @@
+.business-per{
+    .head-sec{
+        display: none;
+        @media(max-width: 600px){
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+        
+        
+        h3{
+            font: normal normal medium 18px/36px Poppins;
+letter-spacing: 0px;
+color: #225649;
+        }
+    }
+    }
+}

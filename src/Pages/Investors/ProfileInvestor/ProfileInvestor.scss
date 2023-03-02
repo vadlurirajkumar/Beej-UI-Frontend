@@ -1,0 +1,500 @@
+@import '../../../App.scss';
+.background-color{
+  
+.profile-investor-component {
+    display: flex;
+    flex-direction: column;
+    // padding: 15px 33px;
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F8F8;
+
+    .banner-img {
+        border-radius: 10px;
+        position: relative;
+        height: 312px;
+        width: 100%;
+        margin: 20px auto 0px;
+        padding: 0 30px;
+        @media(max-width:1240px){
+          height: 300px;
+        }
+        @media(max-width:1150px){
+          height: 250px;
+        }
+        @media(max-width:950px){
+          height: 220px;
+        }
+        @media(max-width:600px){
+          padding: 0 15px;
+          height: 200px;
+        }
+        @media(max-width:500px){
+          padding: 0 10px;
+          height: 160px;
+        }
+        
+        img {
+          width: 100%;
+          height: 100%;
+        }
+    }
+    
+
+    .investor-profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 20px;
+
+        p,
+        h5 {
+            text-align: center;
+            font: normal normal normal 28px/36px Poppins;
+            letter-spacing: -1.17px;
+            color: #0A3E2F;
+            opacity: 1;
+        }
+
+        .investor-profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            gap: 45px;
+            width: 100%;
+            margin-top: 86px;
+
+            .profile-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 30px;
+                position: absolute;
+                top: 390px;
+
+                p {
+                    font-size: 28px;
+                    font-weight: bold;
+                    color: #0A3E2F;
+                }
+
+                .profile-pic {
+                    height: 80%;
+                    width: 80%;
+                    border-radius: 5px;
+
+                    img {
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                }
+
+                .social-network {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 43px;
+
+                    img {
+                        width: 50%;
+                    }
+                }
+            }
+
+            .investor-invests {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+
+                h4 {
+                    font-size: 20px;
+                    color: #1A1A1A;
+                }
+
+
+                .invest-images {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+
+            }
+
+
+
+        }
+
+        .form-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 4;
+            gap: 20px;
+
+            .edit-button {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                padding-top: 5px;
+                font-size: 20px;
+                color: #1A1A1A;
+                margin-left: -16px;
+
+                p {
+                    font: normal normal normal 20px/24px Poppins;
+letter-spacing: -0.83px;
+color: #1A1A1A;
+                }
+
+
+                button {
+                    background-color: $dark-green;
+                    width: 10%;
+                    padding: 10px;
+                    color: white;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    font-size: 20px;
+
+                    a {
+                        color: #fcfcfc;
+                    }
+
+                    .icon {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+
+
+        .profile-Info {
+            padding-top: 20px;
+            width: 100%;
+
+            .container-grid {
+                width: 86%;
+
+                .label-index {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    label {
+                        font-size: 22px;
+                        font-weight: bold;
+                        color: #000;
+                        font-weight: 400;
+                    }
+
+                    input {
+                        padding: 15px 10px;
+                        border: 1px solid lightgray;
+                        width: 100%;
+                        color: #000000;
+                        font-size: 20px;
+
+                    }
+
+                    textarea {
+                        outline: none;
+                        border: 1px solid lightgray;
+                        padding: 20px 10px;
+                        color: #000000;
+                        font-size: 20px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+}
+
+
+// ---------------- {  MEDIA QUARY } ---------------
+@media screen and (max-width: 1800px) {
+    .profile-investor-component {
+        .investor-profile-container {
+            .investor-profile {
+
+                .profile-image {
+                    p {
+                        font-size: 24px;
+                    }
+                }
+
+                .investor-invests {
+                    p {
+                        font-size: 10px;
+
+                        h5 {
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 15px;
+
+                    h5 {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .form-button {
+                .edit-button {
+                    width: 100%;
+
+                    p {
+                        font-size: 17px;
+                    }
+
+                    button {
+                        font-size: 18px;
+                    }
+                }
+
+            }
+
+            .profile-Info {
+
+                .container-grid{
+
+                    .label-index{
+
+                        label {
+                            font-size: 18px;
+                        }
+        
+                        input {
+                            font-size: 16px;
+                        }
+
+                        textarea{
+                            font-size: 16px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .profile-investor-component {
+        .investor-profile-container {
+            .investor-profile {
+
+                .profile-image {
+                    p {
+                        font-size: 23px;
+                    }
+                }
+
+                .investor-invests {
+                    p {
+                        font-size: 10px;
+
+                        h5 {
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 15px;
+
+                    h5 {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .form-button {
+                .edit-button {
+                    width: 100%;
+
+                    p {
+                        font-size: 15px;
+                    }
+
+                    button {
+                        font-size: 17px;
+                    }
+                }
+
+            }
+
+            .profile-Info {
+
+                .container-grid{
+
+                    .label-index{
+
+                        label {
+                            font-size: 16px;
+                        }
+        
+                        input {
+                            font-size: 14px;
+                        }
+
+                        textarea{
+                            font-size: 14px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .profile-investor-component {
+        .investor-profile-container {
+            .investor-profile {
+                .profile-image {
+                    p {
+                        font-size: 1.375rem;
+                    }
+                }
+
+                .investor-invests {
+                    h4 {
+                        font-size: 18px;
+                    }
+                }
+
+                p {
+                    font-size: 0.875rem;
+
+                    h5 {
+                        font-size: 0.938rem;
+                    }
+                }
+            }
+
+            .form-button {
+                .edit-button {
+                    width: 100%;
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                    button {
+                        font-size: 16px;
+                    }
+                }
+
+            }
+
+            .profile-Info {
+
+                .container-grid{
+
+                    .label-index{
+
+                        label {
+                            font-size: 16px;
+                        }
+        
+                        input {
+                            font-size: 14px;
+                        }
+
+                        textarea{
+                            font-size: 14px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .profile-investor-component {
+        height: 100vh;
+        .investor-profile-container {
+            .investor-profile {
+                .profile-image {
+                    p {
+                        font-size: 1.25rem;
+                    }
+                }
+
+                .investor-invests {
+                    h4 {
+                        font-size: 14px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+
+                    h5 {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .form-button {
+                .edit-button {
+                    width: 100%;
+
+                    p {
+                        font-size: 13px;
+                    }
+
+                    button {
+                        font-size: 15px;
+                    }
+                }
+
+            }
+
+            .profile-Info {
+
+                .container-grid{
+
+                    .label-index{
+                        label {
+                            font-size: 15px;
+                        }
+        
+                        input {
+                            padding: 14px 10px;
+
+                        }
+
+                        /* textarea{
+                            font-size: 13px;
+                        } */
+                    }
+
+                }
+            }
+        }
+    }
+}

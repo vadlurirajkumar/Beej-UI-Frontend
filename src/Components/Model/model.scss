@@ -1,0 +1,21 @@
+.overlay{
+    
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9999999999999;
+.model{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 34rem;
+    top:20rem;
+    background-color: red;
+    z-index: 9999999;
+    position: fixed;
+    // z-index: ;
+    // background-color: r;
+
+
+}
+}

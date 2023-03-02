@@ -1,0 +1,68 @@
+@import '../../../../App.scss';
+
+
+.update-investors {
+    padding: 20px;
+    background-color: #FCFCFC;
+    width: 100%;
+    
+    .tabs {
+        text-align: center;
+        border-bottom: 0.75px solid #B2B2B2;
+        display: flex;
+        justify-content: space-around;
+        // width: 100%;
+        // padding-left: 50px;
+        
+
+        //Button of Tab:
+        .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+            color: $dark-green;
+            text-transform: capitalize;
+        }
+
+        .tab {
+            text-transform: capitalize;
+            color: #B2B2B2;
+            font-weight: bold;
+            // font-size: 1rem;
+            // width: 18%;
+            // padding-right: 0%;
+        }
+    }
+
+    //Horizontal Line:
+    .css-1aquho2-MuiTabs-indicator {
+        background-color: $dark-green;
+    }
+}
+
+
+
+// ---------------- MEDIA QUARY --------------------
+@media screen and (max-width: 1600px) {
+    .update-investors{
+        padding: 20px;
+
+        .tabs{            
+            .tab{
+                label{
+                    font-size: 34px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .update-investors{
+        .tabs{ 
+            .tab{ 
+                font-size: 12px;
+               
+            }
+        }
+    }
+             
+}
+

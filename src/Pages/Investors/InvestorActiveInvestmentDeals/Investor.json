@@ -1,0 +1,183 @@
+//  [
+//     {
+//       "id": 1,
+//       "Startup": "Loom",
+//       "LatestValuation": "1cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 2,
+//       "Startup": "Berry",
+//       "LatestValuation": "40cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 3,
+//       "Startup": "Mock",
+//       "LatestValuation": "9cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 4,
+//       "Startup": "Rocket",
+//       "LatestValuation": "7cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Series A",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 5,
+//       "Startup": "Careerpedia",
+//       "LatestValuation": "2cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 6,
+//       "Startup": "Inkprog",
+//       "LatestValuation": "5cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Series A",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id" : 7,
+//       "Startup": "Google",
+//       "LatestValuation": "3cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 8,
+//       "Startup": "Face Book",
+//       "LatestValuation": "1cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 9,
+//       "Startup": "Instagram",
+//       "LatestValuation": "12cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Series A",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 10,
+//       "Startup": "Whatsapp",
+//       "LatestValuation": "10cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 11,
+//       "Startup": "Loom",
+//       "LatestValuation": "1cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 12,
+//       "Startup": "Berry",
+//       "LatestValuation": "15cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 13,
+//       "Startup": "Mock",
+//       "LatestValuation": "10cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 14,
+//       "Startup": "Rocket",
+//       "LatestValuation": "25cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Series A",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 15,
+//       "Startup": "Careerpedia",
+//       "LatestValuation": "7cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 16,
+//       "Startup": "Inkprog",
+//       "LatestValuation": "10cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Series A",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id" : 17,
+//       "Startup": "Google",
+//       "LatestValuation": "1cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 18,
+//       "Startup": "Face Book",
+//       "LatestValuation": "6cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 19,
+//       "Startup": "Instagram",
+//       "LatestValuation": "2cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Series A",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     },
+//     {
+//       "id": 20,
+//       "Startup": "Whatsapp",
+//       "LatestValuation": "5cr",
+//       "FundingRounds": 1,
+//       "RoundType": "Pre-Seed",
+//       "InterestedAmount" : "40L",
+//       "InterestedInvestors" : 1
+//     }
+
+//   ]

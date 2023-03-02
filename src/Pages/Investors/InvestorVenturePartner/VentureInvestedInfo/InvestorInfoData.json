@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+  
+      "SrNo": "1",
+      "Name": "Freda Roxane",
+      "Status":"Active",
+      "NumberofInvestments": "4",
+      "AmountInvested": "5,00,000 "
+    },
+    {
+      "id": 2,
+  
+      "SrNo": "2",
+      "Name": "Freda Roxane",
+      "Status":"Inactive",
+      "NumberofInvestments": "4",
+      "AmountInvested": "5,00,000 "
+    },
+    {
+      "id": 3,
+  
+      "SrNo": "3",
+      "Name": "Freda Roxane",
+      "Status":"Active",
+      "NumberofInvestments": "4",
+      "AmountInvested": "5,00,000 "
+    },
+    {
+      "id": 4,
+  
+      "SrNo": "4",
+      "Name": "Freda Roxane",
+      "Status":"Inactive",
+      "NumberofInvestments": "4",
+      "AmountInvested": "5,00,000 "
+    },
+    {
+      "id": 5,
+  
+      "SrNo": "5",
+      "Name": "Freda Roxane",
+      "Status":"Active",
+      "NumberofInvestments": "4",
+      "AmountInvested": "5,00,000 "
+    }
+  ]

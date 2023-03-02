@@ -1,0 +1,169 @@
+@import '../../../../../App.scss';
+
+
+.form-map{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+    background-color: #FCFCFC;
+
+    .button{
+        background-color: $dark-green;
+        color: white;
+        height: 40px;
+        margin-top: 20px;
+        width: 6%;
+       }
+
+
+.personal-Info {
+    padding: 0px;
+    width: 72%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFCFC;
+    gap: 20px;
+
+    
+    .banner-img{
+        width: 100%;
+        height: 25vh;
+        border-radius: 5px;
+        border:1px solid #F0F0F0;
+    }
+
+
+    .form-container {
+        width: 60%;
+        padding: 10px 20px;
+    }
+
+    .label-index {
+        display: flex;
+        flex-direction: column;
+        color: #858585;
+        font-size: 18px;
+
+        h4{
+            font-size: 22px;
+        }
+    }
+
+    textarea{
+        padding: 10px;
+        outline: none;
+        border: 1px solid #F0F0F0;
+    }
+    input {
+        border: 1px solid #F0F0F0;
+        padding: 10px;
+    }
+
+    img{
+        width: 100%;
+        // height: 150px;
+    }
+
+    .form-button{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        .icon{
+            align-self: flex-end;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+           cursor: pointer;
+           color: $white;
+
+           &:active{
+            color: white;
+           }
+        }
+
+        .edit-button{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .img-profile{
+                margin-top: -60px;
+                margin-left: 20px;
+            }
+
+           .button{
+            background-color: $dark-green;
+            color: white;
+            height: 40px;
+           }
+        }
+    }
+
+    button {
+        width: 10%;
+        margin-left: 20px;
+        background-color: $dark-green;
+        color: white;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+// ---------------- MEDIA QUARY ---------------
+@media screen and (max-width: 1600px) {
+    .form-map{
+        .personal-Info{
+            .label-index{
+                font-size: 16px;
+
+                h4{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1366px) {
+    .form-map{
+        .personal-Info{
+
+            .img-profile{
+                width: 15%;
+
+            }
+
+            .button{
+                font-size: 12px;
+            }
+
+            .banner-img{
+                height: 20vh;
+            }
+            .label-index{
+                font-size: 12px;
+
+                h4{
+                    font-size: 20px;
+                }
+
+                input{
+                    font-size: 12px;
+                }
+
+                textarea{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+}
+
+
+

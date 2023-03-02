@@ -1,0 +1,87 @@
+.main-content{
+    width: 50%;
+    background-color: #FCFCFC;
+    padding: 20px;
+
+    .graph-title{
+        display: flex;
+        justify-content: space-between;
+
+        h3{
+            font-size: 24px;
+        }
+
+        .title{
+            display: flex;
+            gap: 20px;
+            font-size: 16px;
+        }
+    }
+
+    .Revnuemainclass{
+       margin-left: -30px;
+       margin-top: 15px;
+    }
+}
+
+@media(max-width:1700px){
+    .main-content{
+        width: 50%;
+        padding: 20px;
+    
+        .graph-title{
+            h3{
+                font-size: 22px;
+            }
+    
+            .title{
+                font-size: 15px;
+            }
+        }
+    }
+}
+ @media(max-width:1450px){
+    .main-content{
+        padding: 15px;
+    
+        .graph-title{
+    
+            h3{
+                font-size: 20px;
+            }
+    
+            .title{
+                font-size: 14px;
+            }
+        }
+    
+        .Revnuemainclass{
+           margin-top: 20px;
+        }
+    }
+ }
+ @media(max-width:1000px){
+    .main-content{
+        padding: 10px;
+    
+        .graph-title{
+    
+            h3{
+                font-size: 18px;
+            }
+    
+            .title{
+                font-size: 14px;
+            }
+        }
+    
+        .Revnuemainclass{
+           margin-top: 25px;
+        }
+    }
+ }
+ @media(max-width:850px){
+    .main-content{
+        width: 100%;
+    }
+ }

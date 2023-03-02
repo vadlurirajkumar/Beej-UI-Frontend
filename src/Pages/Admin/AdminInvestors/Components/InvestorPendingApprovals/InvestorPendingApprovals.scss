@@ -1,0 +1,41 @@
+// @import "../../../../../App.scss";
+.investordetail {
+  .button-cell {
+    padding-left: 30px;
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+
+  .accept-button {
+    width: 100px;
+    height: 40px;
+    background-color: #023122b5;
+    color: white;
+    border-radius: 5px;
+  }
+  .decline-button {
+    width: 100px;
+    height: 40px;
+    background-color: #e76f51;
+    color: white;
+    border-radius: 5px;
+  }
+  .decline-button:hover {
+    background-color: #d45026;
+  }
+  .accept-button:hover {
+    background-color: #154433;
+  }
+}
+@media(max-width: 1450px) {
+    .investordetail{
+        .accept-button, .decline-button {
+            width: 80px;
+            height: 35px;
+          }
+    }
+ 
+}

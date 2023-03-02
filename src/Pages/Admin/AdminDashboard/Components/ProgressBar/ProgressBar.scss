@@ -1,0 +1,128 @@
+.admin-piechart {
+  width: 50%;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px #2a9d8f0f;
+  padding: 20px;
+  h4{
+    font-size: 22px;
+    color: #1A1A1A;
+  }
+  .investment-details {
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    .data {
+      margin-left: -100px;
+    }
+    .sector-name {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      .color {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+#root
+  > div
+  > div.dashboard-content
+  > div.dashboard-data
+  > div:nth-child(2)
+  > div.admin-piechart
+  > div
+  > div.recharts-wrapper {
+  width: 80% !important;
+  height: auto !important;
+}
+#root
+  > div
+  > div.dashboard-content
+  > div.dashboard-data
+  > div:nth-child(2)
+  > div.admin-piechart
+  > div
+  > div.recharts-wrapper
+  > svg {
+  width: 100% !important;
+  height: auto !important;
+  transform: translate(60px, 20px);
+}
+@media(max-width:1700px){
+    .admin-piechart {
+        padding: 15px;
+        h4{
+          font-size: 20px;
+        }
+        .investment-details {
+          .data {
+            margin-left: -100px;
+          }
+          .sector-name {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            .color {
+              width: 10px;
+              height: 10px;
+              border-radius: 50%;
+            }
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      #root
+        > div
+        > div.dashboard-content
+        > div.dashboard-data
+        > div:nth-child(2)
+        > div.admin-piechart
+        > div
+        > div.recharts-wrapper
+        > svg {
+        transform: translate(60px, 10px);
+      }
+}
+@media(max-width:1500px){
+    .admin-piechart {
+        padding: 10px;
+        h4{
+          font-size: 18px;
+        }
+        .investment-details {
+          .data {
+            margin-left: -100px;
+          }
+          .sector-name {
+            gap: 12px;
+            .color {
+              width: 8px;
+              height: 8px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      #root
+        > div
+        > div.dashboard-content
+        > div.dashboard-data
+        > div:nth-child(2)
+        > div.admin-piechart
+        > div
+        > div.recharts-wrapper
+        > svg {
+        transform: translate(60px, 10px);
+      }
+}

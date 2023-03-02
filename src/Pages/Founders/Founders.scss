@@ -1,0 +1,82 @@
+
+
+.founders{
+    .founders-tab{
+        width: 90%;
+        padding-top: 15vh;
+        margin: 0 auto;
+        @media(max-width:850px){
+            width: 95%;
+        }
+       
+        .founder-forms-tabs{
+            width: 100%;
+        border-bottom: 2px solid #225649B3;    
+        @media(max-width:500px){
+            // display: none !important;
+        }
+       .tab{
+        font-size: 36px;
+        text-align: left;
+        @media(max-width:1700px){
+            font-size: 30px;
+        }
+        @media(max-width:1450px){
+            font-size: 25px;
+        }
+        @media(max-width:1050px){
+            font-size: 20px;
+        }
+        @media(max-width:850px){
+            font-size: 18px;
+        }
+       }
+       .css-ptiqhd-MuiSvgIcon-root{
+        color: #064A37;
+        font-size: 2rem;
+        // transform: translateY(-5px);
+    }
+    }
+    .progress{
+        @media(max-width:500px){
+            display: none;
+        }
+    }
+   }
+
+}
+// #root > div > div.founders-tab > div.MuiTabs-root.tabs.css-1ujnqem-MuiTabs-root{
+//     width: 100%;
+// }
+// #root > div > div.founders-tab > div.MuiTabs-root.tabs.css-1ujnqem-MuiTabs-root > div > div{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     // gap: 150px;
+// }
+// #root > div > div.founders-tab > div.MuiTabs-root.tabs.css-1ujnqem-MuiTabs-root > div > div > button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1pu7cw4-MuiButtonBase-root-MuiTab-root{
+//     max-width: fit-content;
+// }
+
+// $breakpoint-tablet: 1640px;
+// @media (max-width: $breakpoint-tablet) {
+//     #root > div > div.founders-tab > div.MuiTabs-root.tabs.css-1ujnqem-MuiTabs-root > div > div > button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1pu7cw4-MuiButtonBase-root-MuiTab-root{
+//         // width: 300px;
+//     }
+//     #root > div > div.founders-tab > div.MuiTabs-root.tabs.css-1ujnqem-MuiTabs-root > div > div > button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1pu7cw4-MuiButtonBase-root-MuiTab-root{
+//         font-size: 30px;
+//     }
+//   }
+
+//   $breakpoint-tablet: 1460px;
+// @media (max-width: $breakpoint-tablet) {
+//     #root > div > div.founders-tab > div.MuiTabs-root.tabs.css-1ujnqem-MuiTabs-root > div > div > button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1pu7cw4-MuiButtonBase-root-MuiTab-root{
+//         font-size: 24px;
+//     }
+//   }
+//   $breakpoint-tablet: 1090px;
+//   @media (max-width: $breakpoint-tablet) {
+//       #root > div > div.founders-tab > div.MuiTabs-root.tabs.css-1ujnqem-MuiTabs-root > div > div > button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1pu7cw4-MuiButtonBase-root-MuiTab-root{
+//           font-size: 22px;
+//       }
+//     }
