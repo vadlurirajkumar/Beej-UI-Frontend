@@ -1,0 +1,121 @@
+@import "../../../App.scss";
+
+.investment-deals {
+  margin-top: 11vh;
+  padding: 0 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+@media(max-width:1700px){
+  padding: 0 20px;
+}
+  .table-container {
+    .tablehead {
+      font-size: 20px;
+      font-weight: 500;
+      // text-align: center;
+      height: 10vh;
+      @media(max-width:1700px){
+        font-size: 18px;
+      }
+      @media(max-width:1450px){
+        font-size: 16px;
+      }
+      @media(max-width:1050px){
+        font-size: 14px;
+        height: 8vh;
+      }
+   
+   
+    }
+    .tablecell {
+      // background-color: #fcfcfc;
+      font-size: 20px;
+      padding: 10px;
+      @media(max-width:1700px){
+        font-size: 18px;
+      }
+      @media(max-width:1450px){
+        font-size: 16px;
+      }
+      @media(max-width:1050px){
+        font-size: 14px;
+        padding: 5px;
+      }
+   
+    }
+
+    img {
+      width: 120px;
+      padding: 10px;
+      @media(max-width:1700px){
+        width: 100px;
+      }
+      @media(max-width:1050px){
+        width: 80px;
+      }
+    }
+
+    .table-rows {
+      input[type="checkbox"] {
+        border: #fcfcfc;
+        background-color: #fcfcfc;
+      }
+    }
+
+  }
+  .swiper{
+    display: none;
+    @media(max-width:750px){
+      display: block;
+      width:90%;
+      margin-top:5vh;
+      @media(max-width:500px){
+        width: 100%;
+      }
+      .swiper-slide{
+        width: 100% !important;
+        background-color: #FFFFFF;
+        border: 1ps solid #F7F4F4;
+        border-radius: 5px;
+        .mobile-porfolio{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 30px;
+          @media(max-width:500px){
+            padding: 20px;
+          }
+          .left-data{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            p{
+            font-size: 16px;
+            @media(max-width:500px){
+              font-size: 15px;
+            }
+            }
+          
+          }
+          .right-data{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            img{
+              width: 100px;
+            }
+            p{
+            font-size: 16px;
+            @media(max-width:500px){
+              font-size: 15px;
+            }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

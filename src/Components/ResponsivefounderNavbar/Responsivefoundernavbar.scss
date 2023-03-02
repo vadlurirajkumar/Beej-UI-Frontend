@@ -1,0 +1,46 @@
+.ResponsiveFounderNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 10vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+    z-index: 99999;
+    @media(max-width:500px){
+        padding: 0 20px;
+    }
+    @media(max-width:410px){
+        padding: 0 15px;
+    }
+
+    .investor-sideview{
+        background: #FCFCFC 0% 0% no-repeat padding-box;
+border: 1px solid #F7F4F4;
+border-radius: 4px;
+    }
+   
+
+    .hamburger{
+        // display: none;
+    }
+
+    .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 90vh;
+    top: 10vh;
+    left: -100vw;
+    flex-direction: column;
+    gap:30px;
+    width: 100vw;
+
+    }
+    .active{
+        left: 0;
+        background-color:#FFFFFF;
+        z-index: 9999;
+    }
+}

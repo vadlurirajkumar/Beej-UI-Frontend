@@ -1,0 +1,61 @@
+
+export const InvestorProfile = [
+    {
+        name: 'Vincent Corter',
+        banner: require('../../../Assets/Rectangle@2x.png'),
+        profile: require('../../../Assets/InvestorProfile.png'),
+        airgarage : require("../../../Assets/airgaragelogo.png"),
+        logos: require("../../../Assets/codecov.png"),
+        loom : require("../../../Assets/Loom.png"),
+        industry: 'Service, Food.',
+        content: 'Courage taught me no matter how bad a crisis gets, any sound investment will eventually opay off.',
+        gender: 'Female',
+        Designation: 'Chartered financial consultant',
+        Education: "MBA",
+        Location: 'Hyderabad',
+        Bio: 'A high-net-worth individual who provides financial backing for small or entrepreneurs, typically in exchange for ownership equity in the company.',
+        achieve: 'Providing startups fosters innovation which translates into economic growth.',
+
+        fname: 'Vincent',
+        lname: 'Carter',
+        mail: 'vcarter@gmail.com',
+        countryCode: '91',
+        mobileno : '12345678910',
+       website: 'Website',
+       linkedin: 'https://www.linkedin.com/company/vincentcarter/',
+       pastInvestment: 5,
+       InvestmentAllocate: '1 Core',
+       country: 'India',
+       state: 'Telangana',
+       city: 'Hyderabad',     
+   
+        investorType: 'Entity',
+        applicationName: 'Vincent Carter',
+        applicationPanNo: 'CEC23460M',
+        address: '36-136',
+        Pincode: '500094',
+        country: 'India',
+        uploadGovtId: 'Upload Govt ID',
+        fatherORspouse: 'Father',
+        fatherNameOrSpouseName: 'Chunck Cartner',
+        occupation: 'Business',
+        banktype: 'Savings',
+        bankName: 'SBI',
+        accountNumber: '202079832333',
+        bankbranch: 'Defence Colony',
+        ifsccode: 'SBIN000028',
+        swiftcode: 'SWIFT Code',
+
+  
+        Name: 'Blair Cartner',
+        mailId: 'Bcarter@gmail.com',
+        selectRelation: 'Mother',
+        fathersName: 'John',
+        Occupation: 'Doctor',
+   
+        institute: 'Osmania University',
+        degree: 'MBA',
+        from: 2011,
+        to: 2018
+    }
+]

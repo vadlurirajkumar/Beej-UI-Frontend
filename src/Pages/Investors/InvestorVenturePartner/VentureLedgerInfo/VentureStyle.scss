@@ -1,0 +1,193 @@
+.Venturepartner-investmentor {
+  padding-left: 30px;
+  padding-right: 30px;
+
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .drop-downs {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    width: 100%;
+
+    .left {
+      display: flex;
+      gap: 40px;
+    }
+  }
+}
+
+.Venturehead {
+  display: flex;
+  align-items: center;
+  border: none;
+
+  .Venturecell {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+
+    &:last-child {
+      color: #0a3e2f;
+    }
+  }
+}
+
+.Venture-container {
+  .Venturecell {
+    background-color: #fcfcfc;
+    text-align: center;
+
+    p {
+      padding-bottom: 36px;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    a {
+      color: #3361ff;
+      border-bottom: 1px solid #3361ff;
+    }
+
+    .css-1rvyn53-MuiTableCell-root {
+      text-align: center;
+    }
+
+    .table-rows {
+      box-shadow: none;
+
+      .Venturecell {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .total {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fcfcfc;
+
+    h3 {
+      padding-left: 120px;
+      font-size: 20px;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 20px;
+      padding-right: 120px;
+    }
+  }
+
+  .css-1ex1afd-MuiTableCell-root {
+    text-align: none;
+  }
+
+  .MuiTableCell-root
+    .MuiTableCell-body
+    .MuiTableCell-sizeMedium
+    .Venturecell
+    .css-1rvyn53-MuiTableCell-root {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .table-rows {
+    .Venturecell {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .Venturehead{
+    .Venturecell{
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (min-width:701px) {
+  .mobile-Ledgerinfo{
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Venture-container{
+    display: none;
+  }
+  .mobile-Ledgerinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+
+   .mobile-Ledger{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25vh;
+    padding: 30px;
+
+   .mobile-ledger-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    h3{
+      font-size: 16px;
+
+    }
+   }
+
+   .mobile-ledger-center{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   }
+
+   .mobile-ledger-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    p{
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+    }
+    .para-span{
+      margin-top: 17px;
+      display: flex;
+      gap: 10px;
+    }
+   }
+
+  }
+  .total{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+
+   p{
+    font-weight: bold;
+   }
+  }
+  }
+}
+
+
+

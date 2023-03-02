@@ -1,0 +1,223 @@
+.kyc {
+  width: 90%;
+  margin: 0 auto;
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  @media (max-width: 1450px) {
+    padding: 70px 0;
+    width: 95%;
+  }
+  @media (max-width: 1200px) {
+    width: 100%;
+    padding: 60px 0;
+  }
+  @media (max-width: 500px) {
+    padding: 40px 0;
+    gap: 40px;
+  }
+  .title {
+    padding-bottom: 30px;
+    @media (max-width: 1000px) {
+      padding-bottom: 25px;
+    }
+    @media (max-width: 500px) {
+      padding-bottom: 20px;
+    }
+    h3 {
+      font-size: 24px;
+      color: #225649;
+      @media (max-width: 1450px) {
+        font-size: 22px;
+      }
+      @media (max-width: 1200px) {
+        font-size: 20px;
+      }
+      @media (max-width: 500px) {
+        font-size: 18px;
+      }
+    }
+  }
+  #kyc-title {
+    padding-bottom: 0;
+  }
+  .inv-type {
+    .choose {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      input {
+        width: 15px;
+        height: 15px;
+      }
+      label {
+        font-size: 24px;
+        color: #707070;
+        @media (max-width: 1700px) {
+          font-size: 22px;
+        }
+        @media (max-width: 1450px) {
+          font-size: 20px;
+        }
+        @media (max-width: 1300px) {
+          font-size: 18px;
+        }
+        @media (max-width: 500px) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .kyc-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+margin-top: -15px;
+    .input-fields {
+      display: flex;
+      gap: 30px;
+      .kyc-left,
+      .kyc-right {
+        input,
+        select {
+          width: 100%;
+          border: 0;
+          border-bottom: 2px solid lightgrey;
+          outline: none;
+          color: #707070;
+          font-size: 24px;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1450px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 15px;
+          }
+        }
+        .upload-button {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          // padding-top: 60px;
+
+          button {
+            // width: 700px;
+            width: 100%;
+            height: 70px;
+            border-radius: 4px;
+            background-color: #064a37;
+            font-size: 24px;
+            color: #fafafa;
+            // margin-left: 0;
+            @media (max-width: 1450px) {
+              height: 60px;
+              font-size: 20px;
+            }
+           
+            @media (max-width: 500px) {
+              height: 50px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .father-spouse {
+    .forschoose {
+      .choose {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 11px;
+        input {
+          width: 15px;
+          height: 15px;
+        }
+        label {
+          font-size: 24px;
+          color: #707070;
+          @media (max-width: 1700px) {
+            font-size: 22px;
+          }
+          @media (max-width: 1450px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .fs-text-fields {
+      padding-top: 60px;
+      @media(max-width:1450px){
+        padding-top: 50px;
+      }
+      @media(max-width:1000px){
+        padding-top: 40px;
+      }
+      @media(max-width:500px){
+        padding-top: 30px;
+      }
+      input,
+      select {
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid lightgrey;
+        outline: none;
+        color: #707070;
+        font-size: 24px;
+        @media (max-width: 1700px) {
+          font-size: 22px;
+        }
+        @media (max-width: 1450px) {
+          font-size: 20px;
+        }
+        @media (max-width: 1300px) {
+          font-size: 18px;
+        }
+        @media (max-width: 500px) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .kyc-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      width: 220px;
+      height: 70px;
+      border-radius: 4px;
+      background-color: #064a37;
+      font-size: 24px;
+      color: #fafafa;
+      padding: 10px 0px;
+      @media (max-width: 1450px) {
+       height: 60px;
+        font-size: 20px;
+      }
+      @media (max-width: 500px) {
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.founderdetail .button-cell .buttons {
+  display: flex;
+  gap: 15px;
+}
+.founderdetail .button-cell .buttons .Button {
+  width: 120px;
+  height: 40px;
+  background-color: #023122;
+  color: white;
+  border-radius: 5px;
+}/*# sourceMappingURL=FounderDetails.css.map */

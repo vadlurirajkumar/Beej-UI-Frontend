@@ -1,0 +1,36 @@
+.admin-aboutus {
+  background-color: #FCFCFC;
+  padding: 10px;
+  border-radius: 5px;
+}
+.admin-aboutus .navBar {
+  font-size: 18px;
+  color: #064a37;
+  padding-left: 3%;
+}
+.admin-aboutus .about-content {
+  display: flex;
+  padding: 2% 3%;
+}
+.admin-aboutus .about-content .left-Content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6vh;
+}
+.admin-aboutus .about-content .left-Content p {
+  border: 0.5px solid grey;
+  padding: 2% 10px;
+}
+.admin-aboutus .about-content .right-Content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.admin-aboutus .about-content .right-Content p {
+  border: 0.5px solid grey;
+  padding: 2% 10px;
+}/*# sourceMappingURL=About.css.map */

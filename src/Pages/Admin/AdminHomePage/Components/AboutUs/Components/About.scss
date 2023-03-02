@@ -1,0 +1,41 @@
+.admin-aboutus{
+background-color: #FCFCFC;
+padding: 10px;
+border-radius: 5px;
+.navBar{
+    font-size: 18px;
+    color: #064a37;
+    padding-left: 3%;
+
+}
+
+.about-content{
+    display: flex;
+    padding: 2% 3%;
+    .left-Content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6vh;
+        p{
+            border: 0.5px solid grey;
+            padding: 2% 10px;
+        }
+    }
+    .right-Content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: flex-start;
+
+        p{
+            border: 0.5px solid grey;
+            padding: 2% 10px;
+        }
+
+    }
+}
+}

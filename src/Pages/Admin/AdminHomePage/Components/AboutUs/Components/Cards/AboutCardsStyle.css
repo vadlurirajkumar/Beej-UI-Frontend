@@ -1,0 +1,38 @@
+.aboutCard {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  height: 30vh;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.aboutCard .cardData {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+.aboutCard .cardData .cardLeft {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2vh;
+}
+.aboutCard .cardData .cardRight {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2vh;
+}
+.aboutCard .cardData .cardRight input {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.aboutCard .cardData .cardRight img {
+  width: 40px;
+}
+.aboutCard button {
+  width: 50px;
+  height: 32px;
+  background-color: rgba(2, 49, 34, 0.7098039216);
+  color: #fff;
+  border-radius: 5px;
+}/*# sourceMappingURL=AboutCardsStyle.css.map */

@@ -1,0 +1,63 @@
+.table{
+    width: 50%;
+    background-color: #FCFCFC;
+    border-radius:5px ;
+    box-shadow: 0px 10px 10px #2A9D8F0F;
+    padding: 20px;
+    h4{
+        font-size: 22px;
+        color: #1A1A1A;
+    }
+    .thead{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .table-cell{
+        padding: 15px !important;
+        font-size: 16px !important;
+        color: #1A1A1A !important;
+    }
+}
+#root > div > div.dashboard-content > div:nth-child(4) > div.table > div > table > thead > tr > th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.thead.css-1ygcj2i-MuiTableCell-root{
+    border: none;
+}
+.MuiTableCell-root .MuiTableCell-body .MuiTableCell-alignCenter .MuiTableCell-sizeMedium .css-1yhpg23-MuiTableCell-root{
+    border: none !important;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    // background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+@media(max-width:1700px){
+    .table{
+        padding: 15px;
+        h4{
+            font-size: 20px;
+        }
+        .thead{
+            padding: 10px !important;
+            font-size: 16px;
+        }
+        .table-cell{
+            padding: 10px !important;
+            font-size: 14px !important;
+        }
+    }
+}
+@media(max-width:1500px){
+    .table{
+        padding: 10px;
+        h4{
+            font-size: 18px;
+        }
+        .thead{
+            padding: 10px !important;
+            font-size: 14px;
+        }
+        .table-cell{
+            padding: 10px !important;
+            font-size: 12px !important;
+        }
+    }
+}

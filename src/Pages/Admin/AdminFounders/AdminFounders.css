@@ -1,0 +1,11 @@
+.tabstyles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(112, 112, 112, 0.2);
+}
+.tabstyles #founder-searchbar {
+  width: 25%;
+  justify-content: space-between;
+  padding: 0 20px;
+}/*# sourceMappingURL=AdminFounders.css.map */

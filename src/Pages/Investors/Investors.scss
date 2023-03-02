@@ -1,0 +1,58 @@
+// .investors{
+//     width: 100%;
+// }
+.investors-x{
+    height: 100vh;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // flex-direction: column;
+
+    .investors-tab{
+        width: 90%;
+        padding-top: 15vh;
+        margin: 0 auto;
+        h1{
+            font-size: 48px;
+            text-align: center;
+            padding-top: 0;
+            color: #1A1A1A;
+        }
+        .investor-profile-tabs{
+        border-bottom: 2px solid #225649B3;  
+        display: flex !important;
+        justify-content: center !important;  
+        align-items: center;
+        .tab{
+            font-size: 32px;
+            padding: 0 0 15px;
+            // min-width: 30px;     
+          text-align: center;
+            @media(max-width:1700px){
+                font-size: 30px;
+            }
+            @media(max-width:1450px){
+                font-size: 25px;
+            }
+            @media(max-width:1200px){
+                font-size: 20px;
+            }
+            @media(max-width:900px){
+                font-size: 20px;
+                padding: 0 30px 10px 30px;
+            }
+          
+            @media(max-width:500px){
+                padding: 0 20px 10px 20px;
+            }
+        }
+    
+    .css-ptiqhd-MuiSvgIcon-root{
+        color: #064A37;
+        font-size: 2rem;
+        transform: translateY(-5px);
+    }
+    }
+   }
+
+}

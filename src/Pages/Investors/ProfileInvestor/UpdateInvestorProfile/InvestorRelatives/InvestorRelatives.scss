@@ -1,0 +1,81 @@
+.relative-info{
+    // padding: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFCFC;
+    gap: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+    h4{
+        font-size: 22px;
+    }
+
+    .form-container {
+        width: 75%;
+        padding: 10px 20px;
+    }
+
+    .label-index {
+        display: flex;
+        flex-direction: column;
+        color: #858585;
+        font-size: 18px;
+        gap: 5px;
+
+        input{
+            padding: 10px;
+            border: 1px solid #F0F0F0;
+            font-size: 16px;
+        }
+    }
+
+    .investor-relative-button{
+        margin-left: 20px;
+        margin-left: 20px;
+        width: 6%;
+        height: 40px;
+        background-color: #023122;
+        color: white;
+    }
+
+}
+
+
+
+//------------- MEDIA QUARY --------------
+@media screen and (max-width: 1600px) {
+    .relative-info{
+        .form-container{
+            min-width: 75%;
+        }
+
+        .label-index{
+            label{
+                font-size: 16px;
+            }
+            input{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .relative-info{
+        .form-container{
+            min-width: 80%;
+        }
+
+        .label-index{
+            label{
+                font-size: 14px;
+            }
+            input{
+                font-size: 12px;
+            }
+        }
+    }
+}
